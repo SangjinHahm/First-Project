@@ -1,6 +1,6 @@
 #시험성적 표출
 
-#score = {"수학":0, "영어":50, "코딩":100}
+score = {"수학":0, "영어":50, "코딩":100}
 #for subject, score in score.items(): #사전(디셔너리)
 #    print(subject.ljust(8), str(score).rjust(4), sep=":") 
     
@@ -14,3 +14,5 @@
 
 
 print("{0:>10}".format(500))
+print("추가했다.")
+
